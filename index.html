@@ -5,50 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignments</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
+        /* General Reset */
+        * {
             margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             padding: 20px;
-        }
-        h1 {
             text-align: center;
-            color: #333;
         }
+
+        header h1 {
+            font-size: 24px;
+            font-weight: 600;
+            color: #333333;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
         ul {
             list-style-type: none;
             padding: 0;
+            margin: 0;
         }
+
         li {
             margin: 10px 0;
-            background-color: #fff;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            padding: 10px;
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
         }
-        a {
+
+        li a {
+            display: block;
+            padding: 15px;
+            font-size: 18px;
+            color: #007aff;
             text-decoration: none;
-            color: #007BFF;
+            transition: background-color 0.3s, color 0.3s;
         }
-        a:hover {
-            text-decoration: underline;
+
+        li a:hover {
+            background-color: #f0f0f0;
+            color: #0056b3;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: #888888;
+            background-color: #ffffff;
+            border-top: 1px solid #e0e0e0;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
-    <h1>Assignments</h1>
-    <ul>
-        <li><a href="Assignment2.html">Assignment 2</a></li>
-        <li><a href="Assignment3.html">Assignment 3</a></li>
-        <li><a href="Assignment4.html">Assignment 4</a></li>
-         <li><a href="Assignment5.html">Assignment 5</a></li>
-        <li><a href="Assignment6.html">Assignment 6</a></li>
-        <li><a href="Assignment7.html">Assignment 7</a></li>
-        <li><a href="Assignment8.html">Assignment 8</a></li>
-         <li><a href="Assignment9.html">Assignment 9</a></li>
-        <li><a href="Assignment10.html">Assignment 10</a></li>
-        <li><a href="Assignment11.html">Assignment 11</a></li>
-        <li><a href="Miniproject.html">Mini-Project</a></li>
-    </ul>
+    <header>
+        <h1>Assignments</h1>
+    </header>
+    <main>
+        <ul>
+            <li><a href="Assignment2.html">Assignment 2</a></li>
+            <li><a href="Assignment3.html">Assignment 3</a></li>
+            <li><a href="Assignment4.html">Assignment 4</a></li>
+            <li><a href="Assignment5.html">Assignment 5</a></li>
+            <li><a href="Assignment6.html">Assignment 6</a></li>
+            <li><a href="Assignment7.html">Assignment 7</a></li>
+            <li><a href="Assignment8.html">Assignment 8</a></li>
+            <li><a href="Assignment9.html">Assignment 9</a></li>
+            <li><a href="Assignment10.html">Assignment 10</a></li>
+            <li><a href="Assignment11.html">Assignment 11</a></li>
+            <li><a href="inline-css.html">Inline CSS</a></li>
+            <li><a href="internal-css.html">Internal CSS</a></li>
+            <li><a href="external-css.html">External CSS</a></li>
+            <li><a href="Miniproject.html">Mini-Project</a></li>
+            
+        </ul>
+    </main>
 </body>
 </html>
